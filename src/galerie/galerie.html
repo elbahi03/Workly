@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>galerie</title>
+    <link rel="stylesheet" href="galerie.css">
 </head>
+
 <body>
     <!-- header -->
     <header>
-        <a href="../workly/workly.html"><img src="../../pics/bgr_logo.png"></a>
-        <div class="menu">
-            <a href="../workly/workly.html">Workly</a>&nbsp;&nbsp;
-            <a href="../service/service.html">Service</a>&nbsp;&nbsp;
-            <a href="../galerie/galerie.html">Galerie</a>&nbsp;&nbsp;
-            <a href="../apropos/apropos.html">Apropos</a>&nbsp;&nbsp;
-            <a href="">Contact</a>&nbsp;&nbsp;
+        <div class="header">
+            <div class="logo">
+                <a href="../workly/workly.html"><img src="../../pics/bgr_logo.png"></a>
+            </div>
+            <nav class="menu">
+                <a href="../workly/workly.html">Workly</a>&nbsp;&nbsp;
+                <a href="../service/service.html">Service</a>&nbsp;&nbsp;
+                <a href="../galerie/galerie.html">Galerie</a>&nbsp;&nbsp;
+                <a href="../apropos/apropos.html">Apropos</a>&nbsp;&nbsp;
+                <div class="contact1">
+                    <a href="#contact" class="contact">Contact</a>&nbsp;&nbsp;
+                </div>
+            </nav>
         </div>
     </header>
     <!-- galerie -->
@@ -88,13 +97,16 @@
         </div>
     </div>
     <!-- footer -->
+    <div class="localisation">
+        <h3>Localisation</h3>
+        <p>4ème étage, Numéro26, Sis Immeuble Walili Street, 42 Bd Abdelmoumen, Casablanca 20340</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.9354330889523!2d-7.627360925208094!3d33.58102564246656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d39daae76ecf%3A0x9907df41e3985d8b!2sSimplon%20Maghreb!5e0!3m2!1sfr!2sma!4v1753179792561!5m2!1sfr!2sma"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <footer>
-        <div class="localisation">
-            <h3>Localisation</h3>
-            <p>4ème étage, Numéro26, Sis Immeuble Walili Street, 42 Bd Abdelmoumen, Casablanca 20340</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.9354330889523!2d-7.627360925208094!3d33.58102564246656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d39daae76ecf%3A0x9907df41e3985d8b!2sSimplon%20Maghreb!5e0!3m2!1sfr!2sma!4v1753179792561!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="contact">
+        <div class="contact" id="contact">
             <ul class="contact">
                 <li>
                     <img src="../../pics/instagram.png">
@@ -118,35 +130,36 @@
                 </li>
             </ul>
         </div>
-            <ul class="service_footer">
-                <li>
-                    <h4>mes services :</h4>
-                </li>
-                <li>
-                    <h4>POSTS TRAVAILLES</h4>
-                </li>
-                <li>
-                    <h4>SALLE DE REUNION</h4>
-                </li>
-                <li>
-                    <h4>EVENT & FORM</h4>
-                </li>  
-            </ul>
-            <ul>
-                <li>
-                    <h4>lien utiliser :</h4>
-                </li>
-                <li>
-                    <h4><a href="../service/service.html">reservation</a></h4>
-                </li>
-                <li>
-                    <h4><a href="../galerie/galerie.html">galerie</a></h4>
-                </li>
-                <li>
-                    <h4><a href="../apropos/apropos.html">a propos</a></h4>
-                </li>
-            </ul>
-            <img src="../../pics/bgr_logo.png"> 
-    </footer>   
+        <ul class="service_footer">
+            <li>
+                <h4>mes services :</h4>
+            </li>
+            <li>
+                <h4>POSTS TRAVAILLES</h4>
+            </li>
+            <li>
+                <h4>SALLE DE REUNION</h4>
+            </li>
+            <li>
+                <h4>EVENT & FORM</h4>
+            </li>
+        </ul>
+        <ul class="lien_utiliser">
+            <li>
+                <h4>lien utiliser :</h4>
+            </li>
+            <li>
+                <h4><a href="../service/service.html">reservation</a></h4>
+            </li>
+            <li>
+                <h4><a href="../galerie/galerie.html">galerie</a></h4>
+            </li>
+            <li>
+                <h4><a href="../apropos/apropos.html">a propos</a></h4>
+            </li>
+        </ul>
+        <img class="logo2" src="../../pics/bgr_logo.png">
+    </footer>
 </body>
+
 </html>
