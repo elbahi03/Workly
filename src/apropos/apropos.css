@@ -70,6 +70,125 @@ header {
     opacity: 0.5;
 }
 
+/* titre */
+.titre_propod h2 {
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    margin: 70px 0;
+    color: #4A9782;
+}
+
+/* contenu */
+.propos {
+    max-width: 900px;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    background-color: #fdf1d9;
+    border-radius: 60px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Definition section */
+.definition {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.text_def h2 {
+    color: #4A9782;
+    font-size: 40px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.text_def p {
+    color: #000000;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.img_dev img {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+/* Mission section */
+.mission {
+    margin: 10px 0;
+    padding: 1rem;
+}
+
+.mission h2 {
+    color: #4A9782;
+    font-size: 40px;
+    margin-bottom: 0.8rem;
+}
+
+.mission p {
+    color: #000000;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.mission button {
+    background-color: #4A9782;
+    border: none;
+    border-radius: 4px;
+    padding: 0.6rem 1.2rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.mission button a {
+    color: #fdf1d9;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.mission button:hover {
+    background-color: #3a7a6a;
+    transform: translateY(-1px);
+}
+
+/* Services list */
+.avancees h2 {
+    color: #4A9782;
+    font-size: 40px;
+    margin-bottom: 3px;
+    padding: 1rem;
+}
+
+.list {
+    display: flex;
+}
+
+.list li {
+    flex: 1;
+    list-style-type: none;
+    padding: 60px;
+    
+}
+
+.list ul {
+    color: #000000;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    padding-left: 1.2rem;
+    position: relative;
+}
+
+.list ul::before {
+    content: "•";
+    color: #4A9782;
+    position: absolute;
+    left: 0;
+}
+
 /* localisation */
 
 .localisation {
