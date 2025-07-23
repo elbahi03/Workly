@@ -61,13 +61,249 @@ header {
     padding: 10px 20px;
     border-radius: 8px;
     font-weight: 600;
-    transition: background 0.3s;
     text-decoration: none;
     transition: 0.3s;
 }
 
 .contact1 .contact:hover {
     opacity: 0.5;
+}
+
+/* titre */
+
+.titre_service h2 {
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    margin: 70px 0;
+    color: #4A9782;
+}
+
+/* offre */
+/* salle de travail */
+
+.salle_travaille {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    background-color: #fdf1d9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.desc1 {
+    flex: 1;
+    padding: 0.5rem;
+}
+
+.desc1 h3 {
+    color: #4A9782;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.desc1 p {
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+}
+
+.desc1 button {
+    background-color: #4A9782;
+    border: none;
+    border-radius: 4px;
+    padding: 0.6rem 1.2rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.desc1 button:hover {
+    background-color: #3a7a6a;
+    transform: translateY(-1px);
+}
+
+.desc1 button a {
+    color: #fdf1d9;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.img_service2 {
+    flex: 1;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img_service2 img {
+    width: 500px;
+    height: 400px;
+    display: block;
+    transition: transform 0.3s ease;
+
+}
+
+.img_service2:hover img {
+    transform: scale(1.02);
+}
+
+/* salle de ruenion */
+
+.salle_ruenion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    background-color: #fdf1d9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.desc2 {
+    flex: 1;
+    padding: 0.5rem;
+}
+
+.desc2 h3 {
+    color: #4A9782;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.desc2 p {
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+}
+
+.desc2 button {
+    background-color: #4A9782;
+    border: none;
+    border-radius: 4px;
+    padding: 0.6rem 1.2rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.desc2 button:hover {
+    background-color: #3a7a6a;
+    transform: translateY(-1px);
+}
+
+.desc2 button a {
+    color: #fdf1d9;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.img_service1 {
+    flex: 1;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img_service1 img {
+    width: 500px;
+    height: 400px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.img_service1:hover img {
+    transform: scale(1.02);
+}
+
+/* event & form */
+
+.event_forms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    background-color: #fdf1d9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.desc3 {
+    flex: 1;
+    padding: 0.5rem;
+}
+
+.desc3 h3 {
+    color: #4A9782;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.desc3 p {
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+}
+
+.desc3 button {
+    background-color: #4A9782;
+    border: none;
+    border-radius: 4px;
+    padding: 0.6rem 1.2rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.desc3 button:hover {
+    background-color: #3a7a6a;
+    transform: translateY(-1px);
+}
+
+.desc3 button a {
+    color: #fdf1d9;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.img_service3 {
+    flex: 1;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img_service3 img {
+    width: 500px;
+    height: 400px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.img_service3:hover img {
+    transform: scale(1.02);
 }
 
 /* localisation */
