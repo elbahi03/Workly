@@ -89,7 +89,7 @@ header {
     margin-bottom: 1rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #004030;
+    color: #DCD0A8;
 }
 
 .hero h3 {
@@ -99,7 +99,7 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    color: black;
+    color: #4A9782;
 }
 
 .hero button {
@@ -140,7 +140,7 @@ h2 {
     justify-content: center;
     gap: 40px;
     padding: 40px 0;
-
+    transition: transform 0.5s ease;
 }
 
 
@@ -203,7 +203,7 @@ h2 {
 }
 
 .nos_offres :hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 /* point & partenaires */

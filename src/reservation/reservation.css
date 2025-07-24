@@ -107,7 +107,119 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
 }
+/* reservation */
 
+.pic_reservation_logo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100%;            
+}
+
+.pic_reservation_logo a img {
+    width: 120px;
+    height: 120px;
+    margin-top: 20px; 
+    margin-bottom: -70px;
+}
+
+/* titre */
+.titre_reservation h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 60px 0px;
+    color: #4A9782;
+}
+
+/* formulaire */    
+
+form {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 50px;
+    background-color: #fdf1d9;
+    border-radius: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+label {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #4A9782;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #4A9782;
+}
+
+select {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #4A9782;
+}
+
+.envoyer {
+    background-color: #4A9782;
+    color: #FFF9E5;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.envoyer:hover {
+    background-color: #FFF9E5;
+    color: #4A9782;
+}
+
+.annuler{
+    background-color: #FFF9E5;
+    color: #4A9782; 
+    padding: 15px 60px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.annuler:hover {
+    background-color: #4A9782;
+    color: #FFF9E5;
+}
+
+.btm_form {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.btm_form button {
+    margin: 0 50px;
+}
+
+h6 {
+    text-align: center;
+    font-size: 15px;
+    color: #4A9782;
+}
 /* footer */
 
 footer {
