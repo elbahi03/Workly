@@ -227,7 +227,7 @@ header {
     flex: 1;
     list-style-type: none;
     padding: 60px;
-    
+
 }
 
 .list ul {
@@ -244,6 +244,52 @@ header {
     position: absolute;
     left: 0;
 }
+
+@media (max-width: 768px) {
+    .definition {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img_dev img {
+        margin: 1rem auto;
+        margin-bottom: -35px;
+    }
+
+    .text_def h2,
+    .mission h2,
+    .avancees h2 {
+        font-size: 28px;
+    }
+
+    .list ul::before {
+        content: none;
+    }
+
+    .text_def p,
+    .mission p,
+    .list ul {
+        font-size: 0.9rem;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .list li {
+        list-style-type: none;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mission button {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 
 /* localisation */
 
@@ -350,65 +396,66 @@ footer .logo2 {
 }
 
 @media (max-width: 768px) {
+
     /* Section localisation */
     .localisation {
-      padding: 20px 10px;
+        padding: 20px 10px;
     }
-  
+
     .localisation h3 {
-      font-size: 22px;
+        font-size: 22px;
     }
-  
+
     .localisation p {
-      font-size: 13px;
-      padding: 0 5px;
-      text-align: justify;
+        font-size: 13px;
+        padding: 0 5px;
+        text-align: justify;
     }
-  
+
     .localisation iframe {
-      height: 250px;
+        height: 250px;
     }
-  
+
     /* Footer */
     footer {
-      flex-direction: column;
-      align-items: center;
-      padding: 20px 10px;
-      text-align: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+        text-align: center;
     }
-  
+
     footer ul {
-      margin-bottom: 20px;
-      padding: 0;
+        margin-bottom: 20px;
+        padding: 0;
     }
-  
+
     footer ul.contact li {
-      justify-content: center;
+        justify-content: center;
     }
-  
+
     footer ul.contact img {
-      width: 20px;
-      height: 20px;
+        width: 20px;
+        height: 20px;
     }
-  
+
     footer h4 {
-      font-size: 13px;
+        font-size: 13px;
     }
-  
+
     .service_footer h4,
     .lien_utiliser h4 {
-      font-size: 14px;
-      margin-bottom: 8px;
+        font-size: 14px;
+        margin-bottom: 8px;
     }
-  
+
     footer .logo2 {
-      width: 140px;
-      height: auto;
-      margin-top: 20px;
-      display: block;
+        width: 140px;
+        height: auto;
+        margin-top: 20px;
+        display: block;
     }
-  
+
     footer ul a {
-      font-size: 13px;
+        font-size: 13px;
     }
-  }
+}

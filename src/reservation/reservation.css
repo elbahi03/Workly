@@ -276,6 +276,23 @@ h6 {
     font-size: 15px;
     color: #4A9782;
 }
+
+@media (max-width: 768px) {
+    form {
+      width: 90%;
+      padding: 30px;
+    }
+  
+    .btm_form {
+      flex-direction: column;
+    }
+  
+    .btm_form button {
+      margin: 10px 0;
+      width: 100%;
+    }
+  }
+  
 /* footer */
 
 footer {

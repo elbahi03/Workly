@@ -139,7 +139,7 @@ header {
 /* offre */
 /* salle de travail */
 
-.salle_travaille {
+.salle {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,26 +151,26 @@ header {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.desc1 {
+.desc {
     flex: 1;
     padding: 0.5rem;
 }
 
-.desc1 h3 {
+.desc h3 {
     color: #4A9782;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     font-weight: 600;
 }
 
-.desc1 p {
+.desc p {
     color: #000000;
     line-height: 1.6;
     margin-bottom: 1.5rem;
     font-size: 0.95rem;
 }
 
-.desc1 button {
+.desc button {
     background-color: #4A9782;
     border: none;
     border-radius: 4px;
@@ -179,12 +179,12 @@ header {
     cursor: pointer;
 }
 
-.desc1 button:hover {
+.desc button:hover {
     background-color: #3a7a6a;
     transform: translateY(-1px);
 }
 
-.desc1 button a {
+.desc button a {
     color: #fdf1d9;
     text-decoration: none;
     font-weight: 500;
@@ -193,14 +193,14 @@ header {
     letter-spacing: 0.5px;
 }
 
-.img_service2 {
+.img_service {
     flex: 1;
     border-radius: 6px;
     overflow: hidden;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.img_service2 img {
+.img_service img {
     width: 500px;
     height: 400px;
     display: block;
@@ -208,159 +208,22 @@ header {
 
 }
 
-.img_service2:hover img {
+.img_service:hover img {
     transform: scale(1.02);
 }
 
-/* salle de ruenion */
+@media (max-width: 768px) {
+    .salle {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .img_service img {
+      width: 100%;
+      height: 300px;
+    }
+  }
 
-.salle_ruenion {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1.5rem;
-    max-width: 900px;
-    margin: 1.5rem auto;
-    padding: 1.5rem;
-    background-color: #fdf1d9;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.desc2 {
-    flex: 1;
-    padding: 0.5rem;
-}
-
-.desc2 h3 {
-    color: #4A9782;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-}
-
-.desc2 p {
-    color: #000000;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-    font-size: 0.95rem;
-}
-
-.desc2 button {
-    background-color: #4A9782;
-    border: none;
-    border-radius: 4px;
-    padding: 0.6rem 1.2rem;
-    transition: all 0.2s ease;
-    cursor: pointer;
-}
-
-.desc2 button:hover {
-    background-color: #3a7a6a;
-    transform: translateY(-1px);
-}
-
-.desc2 button a {
-    color: #fdf1d9;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.img_service1 {
-    flex: 1;
-    border-radius: 6px;
-    overflow: hidden;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.img_service1 img {
-    width: 500px;
-    height: 400px;
-    display: block;
-    transition: transform 0.3s ease;
-}
-
-.img_service1:hover img {
-    transform: scale(1.02);
-}
-
-/* event & form */
-
-.event_forms {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1.5rem;
-    max-width: 900px;
-    margin: 1.5rem auto;
-    padding: 1.5rem;
-    background-color: #fdf1d9;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.desc3 {
-    flex: 1;
-    padding: 0.5rem;
-}
-
-.desc3 h3 {
-    color: #4A9782;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-}
-
-.desc3 p {
-    color: #000000;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-    font-size: 0.95rem;
-}
-
-.desc3 button {
-    background-color: #4A9782;
-    border: none;
-    border-radius: 4px;
-    padding: 0.6rem 1.2rem;
-    transition: all 0.2s ease;
-    cursor: pointer;
-}
-
-.desc3 button:hover {
-    background-color: #3a7a6a;
-    transform: translateY(-1px);
-}
-
-.desc3 button a {
-    color: #fdf1d9;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.img_service3 {
-    flex: 1;
-    border-radius: 6px;
-    overflow: hidden;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.img_service3 img {
-    width: 500px;
-    height: 400px;
-    display: block;
-    transition: transform 0.3s ease;
-}
-
-.img_service3:hover img {
-    transform: scale(1.02);
-}
 
 /* localisation */
 
