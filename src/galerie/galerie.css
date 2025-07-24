@@ -120,7 +120,88 @@ header {
 
 /* galerie */
 
+/* salle de travaille */
 
+.galerie_pic1{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fdf1d9;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.galerie_pic1 h3{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+    color: #4A9782;
+}
+.pics{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+}
+
+.pics .pic {
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.pics .pic:hover {
+    transform: scale(1.1);
+}
+
+.galerie_pic1 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* salle de réunion */
+
+/*.galerie_pic2{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fdf1d9;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.galerie_pic2 h3{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+    color: #4A9782;
+}
+
+.pics2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+}
+
+.pics2 .pic2 {
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.pics2 .pic2:hover {
+    transform: scale(1.1);
+}
+
+.galerie_pic2 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
 /* footer */
 
 footer {
