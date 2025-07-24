@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Workly</title>
     <link rel="stylesheet" href="workly.css">
 </head>
@@ -15,7 +16,8 @@
             <div class="logo">
                 <a href="workly.html"><img src="../../pics/bgr_logo.png"></a>
             </div>
-            <nav class="menu">
+            <div class="burger" id="burger">&#9776;</div>
+            <nav class="menu" id="menu">
                 <a href="workly.html">Workly</a>&nbsp;&nbsp;
                 <a href="../service/service.html">Service</a>&nbsp;&nbsp;
                 <a href="../galerie/galerie.html">Galerie</a>&nbsp;&nbsp;
@@ -153,6 +155,13 @@
         </ul>
         <img class="logo2" src="../../pics/bgr_logo.png">
     </footer>
+    <script>
+        const burger = document.getElementById('burger');
+        const menu = document.getElementById('menu');
+      
+        burger.addEventListener('click', () => {
+          menu.classList.toggle('active');
+        });
+      </script>
 </body>
-
 </html>
