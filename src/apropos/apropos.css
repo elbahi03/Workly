@@ -348,3 +348,67 @@ footer .logo2 {
     align-self: flex-end;
     margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+    /* Section localisation */
+    .localisation {
+      padding: 20px 10px;
+    }
+  
+    .localisation h3 {
+      font-size: 22px;
+    }
+  
+    .localisation p {
+      font-size: 13px;
+      padding: 0 5px;
+      text-align: justify;
+    }
+  
+    .localisation iframe {
+      height: 250px;
+    }
+  
+    /* Footer */
+    footer {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 10px;
+      text-align: center;
+    }
+  
+    footer ul {
+      margin-bottom: 20px;
+      padding: 0;
+    }
+  
+    footer ul.contact li {
+      justify-content: center;
+    }
+  
+    footer ul.contact img {
+      width: 20px;
+      height: 20px;
+    }
+  
+    footer h4 {
+      font-size: 13px;
+    }
+  
+    .service_footer h4,
+    .lien_utiliser h4 {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+  
+    footer .logo2 {
+      width: 140px;
+      height: auto;
+      margin-top: 20px;
+      display: block;
+    }
+  
+    footer ul a {
+      font-size: 13px;
+    }
+  }

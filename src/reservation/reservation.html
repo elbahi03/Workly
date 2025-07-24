@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservation</title>
     <link rel="stylesheet" href="reservation.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("ES8gTJ_TtiZhiQMb8"); // Replace with your real public key
+        })();
+    </script>
+
 </head>
 
 <body>
@@ -35,7 +42,7 @@
         <h2>RESERVAYION</h2>
     </div>
     <!-- form de reservation -->
-    <form class="reservation" name="reservation">
+    <form class="reservation" name="reservation" id="contact-form">
         <label for="">Votre nom :</label><br>
         <input type="text" class="nom" name="nom" id="nom" placeholder="votre nom complete"><br>
         <label for="">Votre email :</label><br>
@@ -51,7 +58,7 @@
         <input type="week" class="date" name="date" id="date"><br>
         <div class="btm_form">
             <button type="button" class="envoyer" id="reserve">ENVOYER</button>&nbsp;&nbsp;
-            <button  class="annuler">ANNULER</button><br>
+            <button class="annuler">ANNULER</button><br>
         </div>
         <h6>apres remplir cette formulaire , attendu vous appele de confermation</h6>
     </form>
@@ -123,10 +130,11 @@
     <script>
         const burger = document.getElementById('burger');
         const menu = document.getElementById('menu');
-      
+
         burger.addEventListener('click', () => {
-          menu.classList.toggle('active');
+            menu.classList.toggle('active');
         });
     </script>
 </body>
+
 </html>

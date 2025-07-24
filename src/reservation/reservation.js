@@ -23,4 +23,16 @@ document.getElementById('reserve').onclick = function (event) {
 
     alert('Formulaire validé ! Vous recevrez un appel de confirmation.');
     return true;
+
 }
+
+document.getElementById("contact-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    emailjs.sendForm("service_a5f74cr", "template_zw84908", this)
+        .then(function () {
+            alert("Email sent successfully!");
+        }, function (error) {
+            alert("Failed to send email: " + JSON.stringify(error));
+        });
+});
