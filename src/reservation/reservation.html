@@ -6,11 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservation</title>
     <link rel="stylesheet" href="reservation.css">
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script>
-        (function () {
-            emailjs.init("ES8gTJ_TtiZhiQMb8"); // Replace with your real public key
-        })();
+        
     </script>
 
 </head>
@@ -42,26 +39,33 @@
         <h2>RESERVATION</h2>
     </div>
     <!-- form de reservation -->
-    <form class="reservation" name="reservation" id="contact-form">
-        <label for="">Votre nom :</label><br>
-        <input type="text" class="nom" name="nom" id="nom" placeholder="votre nom complete"><br>
-        <label for="">Votre email :</label><br>
-        <input type="email" class="email" name="email" id="email" placeholder="exemple@gmail.com"><br>
-        <label for="">Votre numero : </label><br>
-        <input type="number" class="numero" name="numero" id="numero" placeholder="0606060606"><br>
-        <label for="">Reserver vous :</label><br>
-        <select name="salle_type" id="salle_type" class="salle_type"><br>
-            <option value="ruenion"> Salle de reunion </option>
-            <option value="event"> Event & form </option>
+    <form class="reservation" name="reservation" id="reservation">
+        <label>Votre nom :</label><br>
+        <input type="text" name="nom" id="nom" placeholder="Votre nom complet"><br>
+    
+        <label>Votre email :</label><br>
+        <input type="email" name="email" id="email" placeholder="exemple@gmail.com"><br>
+    
+        <label>Votre numéro :</label><br>
+        <input type="text" name="numero" id="numero" placeholder="0606060606"><br>
+    
+        <label>Réservez-vous :</label><br>
+        <select name="salle_type" id="salle_type">
+            <option value="reunion">Salle de réunion</option>
+            <option value="event">Événement & formation</option>
         </select><br>
-        <label for="">Date de reservation :</label><br>
-        <input type="week" class="date" name="date" id="date"><br>
+    
+        <label>Date de réservation :</label><br>
+        <input type="week" name="date" id="date"><br>
+    
         <div class="btm_form">
-            <button type="button" class="envoyer" id="reserve">ENVOYER</button>&nbsp;&nbsp;
-            <button type="reset" class="annuler" id="annuler">ANNULER</button><br>
+            <button type="button" id="reserve" class="envoyer">ENVOYER</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="reset" id="annuler" class="annuler">ANNULER</button><br>
         </div>
-        <h6>apres remplir cette formulaire , attendu vous appele de confermation</h6>
+    
+        <h6>Après avoir rempli ce formulaire, attendez votre appel de confirmation.</h6>
     </form>
+    
     <!-- footer -->
     <div class="localisation">
         <h3>Localisation</h3>
@@ -126,7 +130,6 @@
         </ul>
         <img class="logo2" src="../../pics/bgr_logo.png">
     </footer>
-    <script src="reservation.js"></script>
     <script>
         const burger = document.getElementById('burger');
         const menu = document.getElementById('menu');
@@ -135,6 +138,10 @@
             menu.classList.toggle('active');
         });
     </script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script src="reservation.js"></script>
 </body>
 
 </html>
